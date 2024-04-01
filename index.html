@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Exercício jQuery</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Página de cadastro</h1>
+        </header>
+        <section>
+            <div class="cadastro">
+                <h2>Efetue seu cadastro</h2>
+                <form>
+                    <div class="form_campo">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Seu Nome Completo">
+                    </div>
+                    <div class="form_campo">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                    </div>
+                    <div class="form_campo">
+                        <label for="tel">Telefone:</label>
+                        <input type="tel" name="tel" id="tel">
+                    </div>
+                    <div class="form_campo">
+                        <label for="cpf">CPF:</label>
+                        <input type="text" name="cpf" id="cpf">
+                    </div>
+                    <div class="form_campo">
+                        <label for="cep">CEP:</label>
+                        <input type="text" name="cep" id="cep">
+                    </div>
+                    <div class="form_campo">
+                        <label for="endereco">Endereço:</label>
+                        <input type="text" name="endereco" id="endereco" placeholder="Seu Endereço">
+                    </div>
+                    <div class="form_campo">
+                        <label for="bairro">Bairro:</label>
+                        <input type="text" name="bairro" id="bairro" placeholder="Seu Bairro">
+                    </div>
+                    <div class="form_campo">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" name="cidade" id="cidade" placeholder="Sua Cidade">
+                    </div>
+                    <div class="form_campo">
+                        <label for="estado">Estado:</label>
+                        <input type="text" name="estado" id="estado" placeholder="Seu Estado">
+                    </div>
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </section>
+    </div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="./js/jquery.mask.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>

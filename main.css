@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    margin-top: 40px;
+    padding: 18px;
+    background-color: transparent;
+    border: 5px solid white;
+    border-radius: 9px;
+    margin-bottom: 40px;
+}
+
+h1, h2{
+    color: azure;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    display: block;
+    max-width: 800px;
+}
+
+.cadastro input, button {
+    display: block;
+    padding: 5px;
+    margin: 8px auto;
+    border: none;
+    border-radius: 9px;
+    width: 25%;
+}
+
+button {
+    background-color: transparent;
+    border: 3px white solid;
+    color: white;
+    font-style: italic;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.form_campo {
+    text-align: center;
+    color: white;
+}
+
+.cadastro {
+    padding: 30px;
+    border: 5px solid white;
+    border-radius: 7px;
+}
